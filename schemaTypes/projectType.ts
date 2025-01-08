@@ -26,6 +26,10 @@ export const projectType = defineType({
       type: 'url',
     }),
     defineField({
+      name: 'showOnHome',
+      type: 'boolean',
+    }),
+    defineField({
       name: 'thumbnail',
       type: 'image',
     }),
