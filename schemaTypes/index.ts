@@ -4,6 +4,7 @@ import {experienceType} from './experienceType'
 import {resumeType} from './resumeType'
 import {socialMediaType} from './socialMediaType'
 import {projectType} from './projectType'
+import {blogType} from './blogType'
 
 export const schemaTypes = [
   introType,
@@ -12,4 +13,5 @@ export const schemaTypes = [
   resumeType,
   socialMediaType,
   projectType,
+  blogType,
 ]
