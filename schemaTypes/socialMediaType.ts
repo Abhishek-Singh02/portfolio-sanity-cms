@@ -15,7 +15,7 @@ export const socialMediaType = defineType({
     }),
     defineField({
       name: 'url',
-      type: 'url',
+      type: 'string',
     }),
     defineField({
       name: 'order',
