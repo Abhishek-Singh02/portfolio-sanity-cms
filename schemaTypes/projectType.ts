@@ -38,5 +38,22 @@ export const projectType = defineType({
       type: 'array',
       of: [{type: 'string'}],
     }),
+    defineField({
+      name: 'order',
+      type: 'number',
+      initialValue: 0,
+    }),
+  ],
+  orderings: [
+    {
+      title: 'order',
+      name: 'order',
+      by: [
+        {
+          field: 'order',
+          direction: 'asc',
+        },
+      ],
+    },
   ],
 })

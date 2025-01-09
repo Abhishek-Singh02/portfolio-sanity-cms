@@ -29,5 +29,22 @@ export const blogType = defineType({
       name: 'showOnHome',
       type: 'boolean',
     }),
+    defineField({
+      name: 'order',
+      type: 'number',
+      initialValue: 0,
+    }),
+  ],
+  orderings: [
+    {
+      title: 'order',
+      name: 'order',
+      by: [
+        {
+          field: 'order',
+          direction: 'asc',
+        },
+      ],
+    },
   ],
 })
