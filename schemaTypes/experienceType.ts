@@ -39,7 +39,7 @@ export const experienceType = defineType({
     }),
     defineField({
       name: 'description',
-      type: 'string',
+      type: 'text',
     }),
     defineField({
       name: 'tags',

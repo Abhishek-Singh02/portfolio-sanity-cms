@@ -8,7 +8,7 @@ export const aboutType = defineType({
     defineField({
       name: 'sections',
       type: 'array',
-      of: [{type: 'string'}],
+      of: [{type: 'text'}],
     }),
   ],
 })
